@@ -6,8 +6,8 @@ using namespace::std;
 
 class Monomio
 {
-	friend istream & operator >> (istream &, Monomio &);
-	friend ostream & operator<< (ostream &, const Monomio &);
+	friend istream & operator >> (istream & in, Monomio &);
+	friend ostream & operator << (ostream &, const Monomio &);
 
 
 private:
@@ -35,9 +35,6 @@ public:
 	Monomio operator- (const Monomio & tempMonomio);
 	Monomio operator* (const Monomio & tempMonomio);
 	Monomio & operator= (const Monomio & tempMonomio);
-
-	//print
-	//void printMonomio() const;
 
 };
 
