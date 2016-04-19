@@ -10,9 +10,6 @@ class Product
 
 {
 
-friend istream & operator >> (istream & in, Product &);
-friend ostream & operator << (ostream &, const Product &);
-
 private:
 	string productName;
 	string productBarCode;
@@ -32,9 +29,12 @@ public:
 
 	//(operator overloading) =, ==
 	Product & operator= (const Product & tempProduct);
-	Product & operator== (const Product & tempProduct);
-
 	//El operador == solo va a comparar contra el atributo productBarCode.
+	bool operator== (const Product &);
+	
+	//Friends
+	friend ostream &operator << (ostream &, const Product &);
+	friend istream &operator >> (istream &, Product &);
 
 };
 #endif // !Product_H
