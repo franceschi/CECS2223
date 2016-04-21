@@ -5,7 +5,7 @@
 Product::Product()
 {
 	productName = "Coca Cola";
-	productBarCode = "DESTAPALAFELICIDAD";
+	productBarCode = "DESTAPA LA FELICIDAD";
 }
 
 Product::Product(string productName, string productBarCode)
@@ -23,7 +23,7 @@ Product::Product(const Product & tempProduct)
 
 Product::~Product()
 {
-	cout << "[Destroying objects created]";
+	
 }
 
 void Product::setBarCode(string code)
@@ -46,6 +46,7 @@ Product & Product::operator=(const Product & tempProduct)
 	// TODO: insert return statement here
 	this->productName = tempProduct.getName();
 	this->productBarCode = tempProduct.getBarCode();
+	return (*this);
 }
 
 bool Product::operator==(const Product &tempProduct)
@@ -65,11 +66,17 @@ string Product::getBarCode() const
 
 ostream & operator<<(ostream &print, const Product &tempProduct)
 {
-	print << tempProduct.getName() << " [16.9 oz.] " << tempProduct.getBarCode() << " [Serial No.]";
+	print << tempProduct.getName() << " [16.9 oz.] " << endl;
+	print << "Serial No. [" << tempProduct.getBarCode() << "]" << endl;
 	return print;
 }
 
-istream & operator >> (istream &, Product &)
+istream & operator >> (istream & in, Product & tempProduct)
 {
 	// TODO: insert return statement here
+	cout << "Enter the name for the product: ";
+	in >> tempProduct.productName;
+	cout << "Enter the product bar code: ";
+	in >> tempProduct.productBarCode;
+	return in;
 }

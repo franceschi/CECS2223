@@ -34,7 +34,7 @@ public:
 	
 	//Friends
 	friend ostream &operator << (ostream &, const Product &);
-	friend istream &operator >> (istream &, Product &);
+	friend istream &operator >> (istream & in , Product &);
 
 };
 #endif // !Product_H
