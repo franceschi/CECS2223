@@ -1,0 +1,3 @@
+Utilizando el Lab8 - Product Array, añadir dos metodos a la clase Maquina:
+1.saveProducts() - va a grabar el arreglo de productos a un archivo..
+2.loadProducts() - va a leer el archivo y crear un arreglo de productos..

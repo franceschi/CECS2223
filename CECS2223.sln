@@ -21,6 +21,23 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab_08", "Lab_08\Lab_08.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project_01", "Project_01\Project_01.vcxproj", "{9A82EE26-272E-4C7D-8E16-B93460F5E331}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab_11", "Lab_11\Lab_11.vcxproj", "{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Copy_Project_02", "Copy_Project_02", "{C3D9C996-9F61-4072-848E-CAB5E092E74A}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Project 02 Comp 02 Lab\Data.cpp = E:\Project 02 Comp 02 Lab\Data.cpp
+		E:\Project 02 Comp 02 Lab\Data.h = E:\Project 02 Comp 02 Lab\Data.h
+		E:\Project 02 Comp 02 Lab\DataParser.cpp = E:\Project 02 Comp 02 Lab\DataParser.cpp
+		E:\Project 02 Comp 02 Lab\DataParser.h = E:\Project 02 Comp 02 Lab\DataParser.h
+		E:\Project 02 Comp 02 Lab\main.cpp = E:\Project 02 Comp 02 Lab\main.cpp
+		E:\Project 02 Comp 02 Lab\Menu.h = E:\Project 02 Comp 02 Lab\Menu.h
+		E:\Project 02 Comp 02 Lab\mylib.h = E:\Project 02 Comp 02 Lab\mylib.h
+		E:\Project 02 Comp 02 Lab\Person.cpp = E:\Project 02 Comp 02 Lab\Person.cpp
+		E:\Project 02 Comp 02 Lab\Person.h = E:\Project 02 Comp 02 Lab\Person.h
+		E:\Project 02 Comp 02 Lab\Report.cpp = E:\Project 02 Comp 02 Lab\Report.cpp
+		E:\Project 02 Comp 02 Lab\Report.h = E:\Project 02 Comp 02 Lab\Report.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +118,14 @@ Global
 		{9A82EE26-272E-4C7D-8E16-B93460F5E331}.Release|x64.Build.0 = Release|x64
 		{9A82EE26-272E-4C7D-8E16-B93460F5E331}.Release|x86.ActiveCfg = Release|Win32
 		{9A82EE26-272E-4C7D-8E16-B93460F5E331}.Release|x86.Build.0 = Release|Win32
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Debug|x64.ActiveCfg = Debug|x64
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Debug|x64.Build.0 = Debug|x64
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Debug|x86.Build.0 = Debug|Win32
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Release|x64.ActiveCfg = Release|x64
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Release|x64.Build.0 = Release|x64
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Release|x86.ActiveCfg = Release|Win32
+		{B5EE83D0-7A00-4C40-B4F9-A715EA5D4DD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
